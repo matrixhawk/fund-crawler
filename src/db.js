@@ -8,9 +8,9 @@ function getGitHubPersonalAccessToken() {
 
 const githubDB = new GitHubDB({
     auth: getGitHubPersonalAccessToken(),
-    owner: 'fundvis',
+    owner: 'matrixhawk',
     repo: 'fund-data',
-    user: { name: 'duanqz', email: 'duanqz@gmail.com' }
+    user: { name: 'matrix', email: '' }
 })
 
 class DBTaskQueue {
