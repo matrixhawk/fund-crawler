@@ -1,5 +1,7 @@
 name: fund-crawler
-on: [push]
+on:
+  schedule:
+    - cron: '0 7 * * *'
 env:
   TOKEN: ${{ secrets.ACCESS_TOKEN }}
 jobs:
