@@ -1,7 +1,5 @@
 name: fund-crawler
 on: [push]
-env:
-  TOKEN: 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
 jobs:
   build:
     name: crawler
