@@ -1,5 +1,7 @@
 name: fund-crawler
 on: [push]
+env:
+  TOKEN: ${{ secrets.ACCESS_TOKEN }}
 jobs:
   build:
     name: crawler
