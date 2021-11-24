@@ -1,11 +1,11 @@
-name: CI
+name: fund-crawler
 on: [push]
+env:
+  TOKEN: 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
 jobs:
   build:
     name: crawler
     runs-on: ubuntu-latest
-    env:
-      TOKEN: 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
     steps:
       - uses: actions/checkout@v2
       - uses: borales/actions-yarn@v2.3.0
